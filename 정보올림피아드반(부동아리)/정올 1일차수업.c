@@ -8,30 +8,31 @@
 /*
 int is_prime(const int n);
 
-int main(){
-int n;
+int main() {
+	int n;
 
-scanf("%d", &n);
-printf("%d", is_prime(n));
+	scanf("%d", &n);
+	printf("%d", is_prime(n));
 
-return 0;
+	return 0;
 }
 
-int is_prime(const int n){
-int i;
-int count = 0;
+int is_prime(const int n) {
+	int i;
+	int count = 0;
 
-for (i = 2; i < n; i++){
-if (n%i == 0)
-count++;
-}
+	for (i = 2; i < n; i++) {
+		if (n%i == 0)
+			count++;
+	}
 
-if (count > 0)
-return 0;
-else
-return 1;
+	if (count > 0)
+		return 0;
+	else
+		return 1;
 }
 */
+
 
 //Äİ¶óÃ÷ ÃßÃø
 
